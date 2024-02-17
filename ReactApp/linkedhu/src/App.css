@@ -1,0 +1,157 @@
+.App {
+  /* background-color: rgba(252,237,218,0.5); */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.imgResult{
+  width: 65%;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+.card {
+  margin-top: 2em;
+  padding: 1.5em 0.5em 0.5em;
+  border-radius: 2em;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.card img {
+  width: 65%;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+}
+.card .card-title {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+.card .btn {
+  border-radius: 2em;
+  background-color: rgb(238, 78, 52);
+  color: #ffffff;
+  padding: 0.5em 1.5em;
+}
+.card .btn:hover,
+.card .btn:focus {
+  background-color: rgba(0, 128, 128, 0.7);
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.color-nav{
+  background-color: rgba(	0, 52, 52, 0.7);
+  border:1px solid rgba(0, 128, 128, 0.5);
+
+}
+#navbarScrollingDropdown {
+  color: white;
+}
+
+.navbar .btn-search, 
+.navbar .txt-search{
+ 
+  border-radius: 3px;
+  border: 1px solid rgba(0, 128, 128, 0.7);
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.navbar .btn-search{
+  background-color: rgba(255, 55, 0, 1)
+}
+
+.navbar .btn-search:hover,
+.navbar .btn-search:focus
+ {
+  background-color: rgba(255, 55, 0, 1);
+}
+
+.navbar .btn-search:focus,
+.navbar .btn-search:hover,
+.navbar .txt-search:focus,
+.navbar .txt-search:hover{
+  color: rgba(0, 128, 128, 0.7);
+  box-shadow: 0 0 0 1px rgba(0, 128, 128, 0.5);
+}
+
+.navbar .btn-search:active,
+.navbar .txt-search:active {
+  background-color: rgba(0, 128, 128, 0.1);
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  color:rgba(0, 128, 128, 1);
+}
+.footer {
+  background-color: rgba(	0, 52, 52, 0.2);
+
+  width: 100%;
+  border-top:2px solid rgba(	0, 52, 52, 0.8);
+  bottom: 0;
+  color: white;
+}
+.a .youtube {
+  color: #eb3223;
+}
+
+.a .facebook {
+  color: #4968ad;
+}
+
+.a .twitter {
+  color: #49a1eb;
+}
+
+.a .instagram {
+  color: black;
+}
