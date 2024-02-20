@@ -8,4 +8,4 @@ LinkedHU_CENG system is such platform that enables users to: enroll in the syste
 While developing this system, you are expected to develop a flexible, maintainable, attractive, and extensible system.
 
 
-LinkedHU_CENG is a full-stack web application that has almost 12 critical (use cases with the CRUD (create, read, update, delete) operations) and 32 use cases at total. We have used ASP.NET programming language and ASP.NET Core framework.</p>
+LinkedHU_CENG is a full-stack web application that has almost 12 critical (use cases with the CRUD (create, read, update, delete) operations) and 32 use cases at total. We have used Java programming language and React.js .</p>
